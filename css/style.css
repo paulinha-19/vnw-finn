@@ -53,8 +53,8 @@ header h1{
     transform:translate(-50%, -50%);
     background-color: #FFE1C9;
     height: 40vh;
-    width:30vw;
-    border-radius: 30vw;
+    width:28vw;
+    border-radius: 100%;
 }
 
 .olho-esquerdo{
@@ -63,7 +63,7 @@ header h1{
     height: 35px;
     background-color: #000;
     border-radius: 50%;
-    left: 25%;
+    left: 30%;
     top: 20%;
 }
 
@@ -73,7 +73,7 @@ header h1{
     height: 35px;
     background-color: #000;
     border-radius: 50%;
-    left: 68%;
+    left: 63%;
     top: 20%;
 }
 
@@ -87,13 +87,17 @@ header h1{
 
 input{
     padding: 0.6rem;
-    width: 18vw;
+    width: 100%;
 }
 
 .botao-enviar{
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.botao-enviar input:hover{
+    background-color: #407f00;
 }
 
 .botao-enviar input{
